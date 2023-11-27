@@ -23,14 +23,15 @@ const Votacao = () => {
         <button onClick={() => Voto('SãoPaulo')}>São Paulo</button>
         <button onClick={() => Voto('Corinthians')}>Corinthians</button>
         <button onClick={() => Voto('Santos')}>Santos</button>
-        <button onClick={() => Voto('Palmiteiras')}>Palmiteiras</button>
+        <button onClick={() => Voto('Palmeiras')}>Palmeiras</button>
       </div>
       <div className="resultados">
         <h3>Resultados:</h3>
         <p>São Paulo: {votos.SãoPaulo}</p>
         <p>Corinthians:{votos.Corinthians}</p>
         <p>Santos: {votos.Santos}</p>
-        {/* Exiba mais resultados conforme necessário */}
+        <p>Palmeiras: {votos.Palmeiras}</p>
+       
       </div>
     </div>
   );
