@@ -3,9 +3,9 @@ import './votacao.css';
  
 const Votacao = () => {
   const [votos, setVotos] = useState({
-    opcao1: 0,
-    opcao2: 0,
-    opcao3: 0,
+    SãoPaulo: 0,
+    Corinthians: 0,
+    Santos: 0,
    
   });
  
@@ -20,10 +20,10 @@ const Votacao = () => {
     <div className="votacao">
       <h2>Qual seu sabor de sorvete favorito?</h2>
       <div className="opcoes">
-        <button onClick={() => Voto('opcao1')}>Opção 1</button>
-        <button onClick={() => Voto('opcao2')}>Opção 2</button>
-        <button onClick={() => Voto('opcao3')}>Opção 3</button>
-        {/* Adicione mais botões ou opções de voto conforme necessário */}
+        <button onClick={() => Voto('SãoPaulo')}>São Paulo</button>
+        <button onClick={() => Voto('Corinthians')}>Corinthians</button>
+        <button onClick={() => Voto('Santos')}>Santos</button>
+       
       </div>
       <div className="resultados">
         <h3>Resultados:</h3>
