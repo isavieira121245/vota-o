@@ -27,9 +27,9 @@ const Votacao = () => {
       </div>
       <div className="resultados">
         <h3>Resultados:</h3>
-        <p>Opção 1: {votos.opcao1}</p>
-        <p>Opção 2: {votos.opcao2}</p>
-        <p>Opção 3: {votos.opcao3}</p>
+        <p>São Paulo: {votos.SãoPaulo}</p>
+        <p>Corinthians:{votos.Corinthians}</p>
+        <p>Santos: {votos.Santos}</p>
         {/* Exiba mais resultados conforme necessário */}
       </div>
     </div>
