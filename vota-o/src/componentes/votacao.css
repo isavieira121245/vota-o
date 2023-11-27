@@ -1,8 +1,12 @@
 
   .opcoes button {
- background-color: brown;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    background-color: darkblue;
    
   }
+  
    
   .resultados {
     margin-top: 20px;
