@@ -6,7 +6,7 @@ const Votacao = () => {
     SãoPaulo: 0,
     Corinthians: 0,
     Santos: 0,
-   
+    Palmeiras: 0,
   });
  
   const Voto = (opcao) => {
@@ -18,12 +18,12 @@ const Votacao = () => {
  
   return (
     <div className="votacao">
-      <h2>Qual seu sabor de sorvete favorito?</h2>
+      <h2>Qual seu time favorito?</h2>
       <div className="opcoes">
         <button onClick={() => Voto('SãoPaulo')}>São Paulo</button>
         <button onClick={() => Voto('Corinthians')}>Corinthians</button>
         <button onClick={() => Voto('Santos')}>Santos</button>
-       
+        <button onClick={() => Voto('Palmiteiras')}>Palmiteiras</button>
       </div>
       <div className="resultados">
         <h3>Resultados:</h3>
